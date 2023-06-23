@@ -6,8 +6,9 @@
 }
 
 body {
-    background: url(images/bac.jpg)no-repeat center/cover;
-    height: 100vh;
+    background: url(images/bac.png)no-repeat center/cover;
+    height    : 100vh;
+    padding   : 15px;
 
 }
 
@@ -15,8 +16,12 @@ a {
     color           : black;
     margin          : 20px auto 0;
     border          : 1px solid #000;
-    padding         : 4px 24px;
+    max-width       : 500px;
+    width           : 100%;
+    text-align      : center;
+    padding         : 15px 24px;
     border-radius   : 20px;
+    font-size       : 22px;
     background-color: aquamarine;
 }
 
@@ -31,12 +36,15 @@ form {
 }
 
 input {
-    padding         : 5px;
+    padding         : 15px;
     border-radius   : 20px;
-    width           : 100px;
+    max-width       : 500px;
+    width           : 100%;
     margin          : auto;
     text-align      : center;
     background-color: bisque;
+    margin-bottom   : 30px;
+    font-size       : 22px;
 }
 
 p {
@@ -44,7 +52,8 @@ p {
     border-radius   : 10px;
     padding         : 10px;
     text-align      : center;
-    width           : 80%;
+    max-width       : 1140px;
+    width           : 100%;
     margin          : 5px auto;
     background-color: bisque;
 }
