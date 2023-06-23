@@ -1,0 +1,50 @@
+* {
+    margin         : 0;
+    padding        : 0;
+    box-sizing     : border-box;
+    text-decoration: none;
+}
+
+body {
+    background: url(images/bac.jpg)no-repeat center/cover;
+    height: 100vh;
+
+}
+
+a {
+    color           : black;
+    margin          : 20px auto 0;
+    border          : 1px solid #000;
+    padding         : 4px 24px;
+    border-radius   : 20px;
+    background-color: aquamarine;
+}
+
+form {
+    max-width        : 500px;
+    width            : 100%;
+    /* border        : 1px solid #000; */
+    margin           : 50px auto;
+    display          : flex;
+    flex-direction   : column;
+    padding          : 10px;
+}
+
+input {
+    padding         : 5px;
+    border-radius   : 20px;
+    width           : 100px;
+    margin          : auto;
+    text-align      : center;
+    background-color: bisque;
+}
+
+p {
+    border          : 1px solid #000;
+    border-radius   : 10px;
+    padding         : 10px;
+    text-align      : center;
+    width           : 80%;
+    margin          : 5px auto;
+    background-color: bisque;
+}
