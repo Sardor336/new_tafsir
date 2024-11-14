@@ -62,7 +62,8 @@ body {
     padding    : 20px;
     background : url(images/bac.jpg)no-repeat center/cover;
     color      : #ffffff;
-box-sizing: border-box;
+    box-sizing: border-box;
+    height    : 100vh;
 }
 
 h1 {
