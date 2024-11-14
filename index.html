@@ -10,17 +10,42 @@
 
 <body>
 
-    <form action="" name="my">
+    <!-- <form action="" name="my">
         <input type="number" placeholder=" Sura raqami" name="sura">
         <input type="number" placeholder=" Oyat raqami" name="oyat">
 
         <a href="#" onclick="btnSearch()">Qidiruv</a>
 
 
-    </form>
+    </form> -->
+
+    <h1>Qur'on Tafsiri</h1>
+    <p class="suraNomi">
+        <label for="sura">Surani tanlang:</label>
+        <select id="sura">
+
+        </select>
+    </p>
+
+        
+
+ 
+<p class="oyatNomi">
+    <label for="ayat">Oyat raqamini kiriting:</label>
+
+    <input type="number" id="ayat" min="1" max="286">
+
+</p>
+
+   
+
+    <button onclick="showTafsiri()">Tafsirni ko'rsatish</button>
+
+    <div id="tafsir"></div>
 
 
-    <script src="script.js"></script>
+    <!-- <script src="script.js"></script> -->
+    <script src="newScript.js"></script>
 </body>
 
 </html>
