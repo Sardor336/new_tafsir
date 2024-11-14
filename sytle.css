@@ -1,4 +1,4 @@
-* {
+/* * {
     margin         : 0;
     padding        : 0;
     box-sizing     : border-box;
@@ -28,7 +28,6 @@ a {
 form {
     max-width        : 500px;
     width            : 100%;
-    /* border        : 1px solid #000; */
     margin           : 50px auto;
     display          : flex;
     flex-direction   : column;
@@ -56,4 +55,59 @@ p {
     width           : 100%;
     margin          : 5px auto;
     background-color: bisque;
+} */
+
+body {
+    font-family: Arial, sans-serif;
+    padding    : 20px;
+    background : url(images/bac.jpg)no-repeat center/cover;
+    color      : #ffffff;
+box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+}
+
+.suraNomi {
+    display       : flex;
+    flex-direction: column;
+}
+
+.suraNomi select {
+    width: max-content;
+}
+
+.oyatNomi {}
+
+select,
+input[type="number"] {
+    margin       : 10px 0;
+    padding      : 5px;
+    border-radius: 10px;
+}
+
+button {
+    padding         : 10px;
+    background-color: #4CAF50;
+    color           : white;
+    border          : none;
+    cursor          : pointer;
+    border-radius   : 10px;
+    box-shadow      : 0 0 5px 2px white;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+#tafsir {
+    margin-top      : 20px;
+    padding         : 10px;
+    background-color: #f4f4f4;
+    border          : 1px solid #ddd;
+    border-radius   : 10px;
+    color           : rgb(65, 60, 60);
+    width           : max-content;
+    width           : 100%;
 }
